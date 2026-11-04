@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node server.mjs",
-    "start": "node server.mjs"
+    "dev": "node --use-env-proxy server.mjs",
+    "start": "node --use-env-proxy server.mjs",
+    "test": "node meta.test.mjs"
   },
   "engines": {
-    "node": ">=22"
+    "node": ">=24"
   }
 }
