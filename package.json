@@ -1,0 +1,12 @@
+{
+  "name": "cem-pulse",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
